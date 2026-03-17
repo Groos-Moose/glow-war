@@ -2,10 +2,10 @@
 
 ## Project Overview
 Browser-based React card game (single `.jsx` file). No build step — loads directly as a React artifact/component.
-Current version: **v167**. Working file convention: `war-game-vNN.jsx` (deploy by incrementing NN).
+Current version: **v168**. Working file convention: `war-game-vNN.jsx` (deploy by incrementing NN).
 
 ## File Locations
-- Working file: `war-game-v167.jsx` (rename to next version before editing)
+- Working file: `war-game-v168.jsx` (rename to next version before editing)
 - QA suites: `war_qa.mjs` (52 tests), `deep_qa.mjs` (131 tests)
 - Deploy: copy to outputs, bump version string in source
 
