@@ -15,7 +15,7 @@
 <body>
   <div id="root"></div>
   <script>
-    fetch('war-game-v169.jsx')
+    fetch('war-game-v170.jsx')
       .then(r => r.text())
       .then(code => {
         try {
@@ -26,7 +26,7 @@
             .replace(/^export\s+default\s+/m, 'const __GlowWarGame = ');
           const transformed = Babel.transform(stripped, {
             presets: ['react'],
-            filename: 'war-game-v169.jsx'
+            filename: 'war-game-v170.jsx'
           }).code;
           // eslint-disable-next-line no-new-func
           new Function('React', 'ReactDOM', transformed + '\nReactDOM.createRoot(document.getElementById("root")).render(React.createElement(__GlowWarGame));')(React, ReactDOM);
